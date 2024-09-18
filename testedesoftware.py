@@ -15,6 +15,7 @@ def cadastrar():
             usuarios[novo_username] = nova_senha
             print(f"Usuário {novo_username} cadastrado com sucesso!")
             break
+                    
 
 def login():
     print("=== Sistema de Login ===")
